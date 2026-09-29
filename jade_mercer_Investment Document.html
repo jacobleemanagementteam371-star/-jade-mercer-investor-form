@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Jade Mercer Royalties LLC — Investor Form</title>
+<style>
+body{font-family:Arial,sans-serif;background:#f4f5f7;color:#20242a;margin:0}
+.wrap{max-width:900px;margin:25px auto;padding:15px}
+.card{background:#fff;padding:32px;margin-bottom:18px;border-radius:12px;box-shadow:0 3px 14px #0001}
+h1{text-align:center}h2{border-bottom:1px solid #ddd;padding-bottom:7px}
+h3{margin-bottom:6px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{display:block;font-weight:bold;margin:10px 0 5px}
+input,textarea{width:100%;box-sizing:border-box;padding:11px;border:1px solid #bbb;border-radius:7px;font-size:15px}
+textarea{min-height:90px}.amount{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.box{background:#f5f6f7;padding:15px;text-align:center;border-radius:8px}.num{font-size:23px;font-weight:bold}
+.check{font-weight:normal;display:flex;gap:8px;align-items:flex-start}.check input{width:auto;margin-top:4px}
+.btn{padding:12px 20px;background:#222;color:#fff;border:0;border-radius:7px;font-weight:bold;cursor:pointer}
+.small{font-size:13px;color:#666}@media(max-width:650px){.grid,.amount{grid-template-columns:1fr}.card{padding:22px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="card">
+<h1>JADE MERCER ROYALTIES LLC</h1>
+<p style="text-align:center"><b>INVESTOR INFORMATION &amp; SUBSCRIPTION FORM</b><br>FIXED $6,000 SIX-MONTH RETURN</p>
+<p>This document presents the six-month investment terms and provides a form for an interested investor to submit information for review.</p>
+</div>
+
+<div class="card">
+<h2>Investment Summary</h2>
+<div class="amount">
+<div class="box">Principal<div class="num">$10,000</div></div>
+<div class="box">Fixed Return<div class="num">$6,000</div></div>
+<div class="box">Total at Maturity<div class="num">$16,000</div></div>
+</div>
+<p><b>Term:</b> Six (6) months.</p>
+<p>The $6,000 return is presented as a contractual payment term of the investment arrangement, subject to the applicable transaction documents and the Company's ability to perform.</p>
+</div>
+
+<div class="card">
+<h2>What the Fan Is Investing In</h2>
+<p>The fan-investor is investing in a contractual financial interest associated with Jade Mercer Royalties LLC and its music-rights and royalty-related business activities. Capital may be used for permitted business purposes including music projects, catalog-related activities, eligible rights transactions, licensing opportunities, and related operating needs.</p>
+<h2>Potential Benefits</h2>
+<ul>
+<li>Defined $6,000 stated return on a $10,000 principal over six months.</li>
+<li>Exposure to a business connected to music rights, royalties, licensing, and related opportunities.</li>
+<li>A defined six-month maturity structure.</li>
+<li>Capital may support the Company's music-rights and related commercial activities.</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Key Risks</h2>
+<h3>1. Business &amp; Performance Risk</h3>
+<p>The Company's music, royalty, licensing, and related business activities may not perform as expected, which could affect its ability to meet payment obligations.</p>
+<h3>2. Payment &amp; Principal Risk</h3>
+<p>The stated $6,000 return and repayment of the $10,000 principal are contractual obligations of the Company, subject to the applicable transaction documents and the Company's ability to perform. An investor could lose some or all of the invested principal if the Company cannot meet its obligations.</p>
+</div>
+
+<div class="card">
+<h2>Management &amp; Counsel Review</h2>
+<p>This offering package has been reviewed and confirmed by the Company's management and legal counsel for use with the Company's approved procedures and transaction documents.</p>
+<div class="grid">
+<div><label>Authorized Company Representative</label><input value="Daniel Mercer — Managing Director" readonly></div>
+<div><label>Date</label><input type="date" name="review_date"></div>
+<div><label>Counsel / Attorney</label><input value="Robert Mitchell — Corporate Counsel" readonly></div>
+<div><label>Review Date</label><input type="date" name="counsel_review_date"></div>
+</div>
+</div>
+
+<div class="card">
+<h2>Investor Information &amp; Submission</h2>
+<form action="https://formspree.io/f/xzezyjyk" method="POST">
+<div class="grid">
+<div><label>Full Name</label><input required name="full_name"></div>
+<div><label>Email</label><input required type="email" name="email"></div>
+<div><label>Phone</label><input name="phone"></div>
+<div><label>Country / State</label><input name="country_state"></div>
+</div>
+<label>Investment Amount</label><input name="investment_amount" value="$10,000" readonly>
+<label>Term</label><input name="term" value="6 months" readonly>
+<label>Questions or Comments</label><textarea name="questions_comments"></textarea>
+<p class="check"><input required type="checkbox" name="acknowledgment" value="Yes"> I acknowledge that I have read the investment summary, potential benefits, and the two stated risks.</p>
+<p class="check"><input required type="checkbox" name="information_accuracy" value="Yes"> I confirm that the information I submit is accurate to the best of my knowledge.</p>
+<input type="hidden" name="_subject" value="Jade Mercer Investor Form Submission">
+<button class="btn" type="submit">Submit Investor Information</button>
+</form>
+</div>
+
+</div>
+</body>
+</html>
